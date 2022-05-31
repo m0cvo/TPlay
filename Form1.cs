@@ -19,7 +19,10 @@ namespace TPlay
         private void btnEnter_Click(object sender, EventArgs e)
         {
             input = txtInput.Text;
+            //1st option
             output =  Reverse(input);
+            //2nd option
+            //output = ReverseXor(input);
             txtOutput.Text = output;
         }
 
